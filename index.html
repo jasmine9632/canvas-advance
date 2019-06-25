@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>canvas-ad</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="//at.alicdn.com/t/font_1261161_a0uyzwzol9s.js"></script>
+
+</head>
+
+<body>
+    <canvas id="canvas" width="300" height="300"></canvas>
+    <div id="actions" class="actions">
+        <svg id="pen" class="icon" aria-hidden="true">
+        <use xlink:href="#icon-pen"></use>
+      </svg>
+        <svg id="eraser" class="icon" aria-hidden="true">
+        <use xlink:href="#icon-eraser"></use>
+      </svg>
+        <svg id="clear" class="icon" aria-hidden="true">
+        <use xlink:href="#icon-clear"></use>
+      </svg>
+        <svg id="download" class="icon" aria-hidden="true">
+        <use xlink:href="#icon-down-load"></use>
+      </svg>
+    </div>
+    <ol class="colors">
+        <li id="red" class=" active red"></li>
+        <li id="green" class="green"></li>
+        <li id="orange" class="orange"></li>
+    </ol>
+    <ol class="sizes">
+        <li class="thin" id="thin"></li>
+        <li class="thick" id="thick"></li>
+    </ol>
+    <script src="./main.js"></script>
+</body>
+
+</html>
